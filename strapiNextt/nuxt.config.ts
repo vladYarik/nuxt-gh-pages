@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   target: 'static',
+  mode: 'spa',
   router: {
-    base: '/<repository-name>/'
-  }
+    base: '/nuxt-gh-pages/'
+  },
 })
